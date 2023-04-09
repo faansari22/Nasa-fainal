@@ -1,0 +1,265 @@
+.main-menu {
+    float: left;
+    margin: auto;
+    position: fixed;
+    z-index: 100;
+    background: black;
+    min-width: 1350px;
+    background-image: url(img/starfield-banner.jpg);
+}
+
+.main-menu ul{
+    background-image: url(img/starfield-banner.jpg);
+}
+
+    .main-menu > ul > li {
+    float: left;
+    list-style: none;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+.main-menu > ul > li::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 20%;
+    background: #555555;
+    width: 2px;
+    height: 60%;
+}
+
+.main-menu > ul > li:first-child::before{
+    display: none;
+}
+
+.main-menu > ul > li:last-child:before{
+    display: none;
+}
+
+    .main-menu ul li a {
+        padding: 22px 22px;
+        display: inline-block;
+        font-size: 15px;
+        text-decoration: none;
+        color: #454647;
+        font-weight: bold;
+    }
+
+    .main-menu ul li a i {
+        margin-right: 0px;
+        background: #efefef;
+    }
+
+    .main-menu ul li ul {
+        padding: 0px 0px;
+        width: 250px;
+        background: #fff;
+        top: 115px;
+        right: 0;
+        left: 0;
+        box-shadow: 0px 1px 6px #e6e6e6;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .2s ease-in-out;
+        z-index: 999;
+        }
+
+        .main-menu ul li ul li {
+            list-style: none;
+        }
+
+        .main-menu ul li ul li a {
+            padding: 9px 15px;
+            display: block;
+            font-weight: normal;
+            font-size: 16px;
+        }
+
+        .main-menu ul li ul li a:hover {
+            color: #fff;
+        }
+
+        .main-menu > ul > li:hover ul {
+            opacity: 1;
+            visibility: visible;
+            top: 83px;
+        }
+
+        .main-menu > ul > li {
+            float: left;
+            list-style: none;
+            position: relative;
+        }
+            
+        .main-menu ul li a {
+            padding: 30px 14px;
+            display: inline-block;
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: 100;
+        }
+        
+        .main-menu ul li a i {
+            margin-right: 0px;
+        }
+
+        .main-menu ul li ul {
+            position: absolute;
+            width: 250px;
+            background: #15418c;
+            top: 115px;
+            right: 0;
+            box-shadow: none;
+            opacity: 0;
+            visibility: hidden;
+            transition: all .2s ease-in-out;
+            z-index: 999;
+        }
+
+        .main-menu ul li ul li {
+            list-style: none;
+        }
+        
+        .main-menu ul li ul li a {
+            padding: 9px 15px;
+            display: block;
+            font-weight: normal;
+        }
+        
+        .main-menu ul li ul li a:hover {
+            background: #093853;
+            color: white;
+        }
+        
+        .main-menu > ul > li:hover ul {
+            opacity: 1;
+            visibility: visible;
+            top: 83px;
+            padding: 0%;
+        }
+
+        .main-menu-divider  {
+            background: #15418c;
+        }
+
+.main-menu2 {
+    float: left;
+    background-color: #555555;
+    }
+
+    .main-menu2 ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-menu2 > ul > li {
+    float: left;
+    list-style: none;
+    position: relative;
+    }
+
+    .main-menu2 > ul > li:hover {
+        background-color: #555555;
+        }
+
+    .main-menu2 ul li:before{
+    content: "";
+    position: absolute;
+    left: -1px;
+    z-index: 1;
+    top: 20%;
+    display: block;
+    width: 2px;
+    height: 60%;
+    background-color: #888;
+    }
+
+    .main-menu2 ul li:first-child::before{
+        display: none;
+    }
+    
+    .main-menu2 ul li a {
+    padding: 10px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    }
+
+    .main-menu2 ul li ul {
+        position: absolute;
+        width: 250px;
+        background: #928d8d;
+        top: 115px;
+        right: 0;
+        box-shadow: 0px 1px 6px #433e3e;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .2s ease-in-out;
+        z-index: 999;
+        }
+
+        .main-menu2 ul li a {
+        padding: 9px 15px;
+        display: block;
+        font-weight: normal;
+        margin-right: -1px;
+        z-index: 3;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            background-color: #15418c;
+        }
+
+        .back-head {
+            background-image: url("img/starfield-banner.jpg");
+            max-width: 1366px;
+            color: white;
+            float: left;
+            width: 212;
+            height: 212;
+            line-height: 3;
+            margin-right: 48px;
+        }
+
+        form {
+            cursor: text;
+            width: 156px;
+            background-color: #333333;
+            z-index: 1;
+            padding: 0px;
+            height: 50px;
+            border-radius: none;
+            display: flex;
+            align-items: center;
+            float: left;
+        }
+
+.navbar-brand img{
+    margin:11px;
+    width:110px;
+}
+
+input{
+    background-color: #333333;
+    cursor: text;
+    color:#928d8d;
+    padding:10px;
+    border: none;
+}
+
+.search-box-holder{
+    position: relative;
+    margin-top: 23px;
+}
+
+.search-box-holder img{
+    position: absolute;
+    width: 28px;
+    right: 8px;
+    top: 4px;
+}
